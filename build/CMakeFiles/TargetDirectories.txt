@@ -1,0 +1,13 @@
+/home/ap/projects/Cpp/aim_traning/build/CMakeFiles/edit_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/CMakeFiles/rebuild_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/CMakeFiles/Core.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/CMakeFiles/edit_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/CMakeFiles/rebuild_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/CMakeFiles/SDL3_test.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/CMakeFiles/edit_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/CMakeFiles/rebuild_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/App/CMakeFiles/App.dir
+/home/ap/projects/Cpp/aim_traning/build/App/CMakeFiles/edit_cache.dir
+/home/ap/projects/Cpp/aim_traning/build/App/CMakeFiles/rebuild_cache.dir

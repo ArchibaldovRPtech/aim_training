@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ap/projects/Cpp/aim_traning/build/cmake_install.cmake",
+		"/home/ap/projects/Cpp/aim_traning/build/Core/cmake_install.cmake",
+		"/home/ap/projects/Cpp/aim_traning/build/Core/vendored/SDL/cmake_install.cmake",
+		"/home/ap/projects/Cpp/aim_traning/build/App/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

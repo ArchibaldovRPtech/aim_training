@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/App.dir/link.d CMakeFiles/App.dir/Source/Main.cpp.o CMakeFiles/App.dir/Source/AppLayer.cpp.o -o App  -Wl,-rpath,/home/ap/projects/Cpp/aim_traning/build ../Core/libCore.a ../libSDL3.so.0.3.0
