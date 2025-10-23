@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_traning
+CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_traning/build
+CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_training/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_traning/build/CMakeFiles /home/ap/projects/Cpp/aim_traning/build/App//CMakeFiles/progress.marks
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_traning/build/CMakeFiles 0
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_training/build/CMakeFiles /home/ap/projects/Cpp/aim_training/build/App//CMakeFiles/progress.marks
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_training/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/clean
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,23 +103,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/preinstall
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/preinstall
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_traning/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_training/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 App/CMakeFiles/App.dir/rule:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/CMakeFiles/App.dir/rule
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App/CMakeFiles/App.dir/rule
 .PHONY : App/CMakeFiles/App.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ App: App/CMakeFiles/App.dir/rule
 
 # fast build rule for target.
 App/fast:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/build
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/build
 .PHONY : App/fast
 
 Source/AppLayer.o: Source/AppLayer.cpp.o
@@ -136,7 +136,7 @@ Source/AppLayer.o: Source/AppLayer.cpp.o
 
 # target to build an object file
 Source/AppLayer.cpp.o:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.o
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.o
 .PHONY : Source/AppLayer.cpp.o
 
 Source/AppLayer.i: Source/AppLayer.cpp.i
@@ -144,7 +144,7 @@ Source/AppLayer.i: Source/AppLayer.cpp.i
 
 # target to preprocess a source file
 Source/AppLayer.cpp.i:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.i
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.i
 .PHONY : Source/AppLayer.cpp.i
 
 Source/AppLayer.s: Source/AppLayer.cpp.s
@@ -152,7 +152,7 @@ Source/AppLayer.s: Source/AppLayer.cpp.s
 
 # target to generate assembly for a file
 Source/AppLayer.cpp.s:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.s
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/AppLayer.cpp.s
 .PHONY : Source/AppLayer.cpp.s
 
 Source/Main.o: Source/Main.cpp.o
@@ -160,7 +160,7 @@ Source/Main.o: Source/Main.cpp.o
 
 # target to build an object file
 Source/Main.cpp.o:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.o
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.o
 .PHONY : Source/Main.cpp.o
 
 Source/Main.i: Source/Main.cpp.i
@@ -168,7 +168,7 @@ Source/Main.i: Source/Main.cpp.i
 
 # target to preprocess a source file
 Source/Main.cpp.i:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.i
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.i
 .PHONY : Source/Main.cpp.i
 
 Source/Main.s: Source/Main.cpp.s
@@ -176,7 +176,7 @@ Source/Main.s: Source/Main.cpp.s
 
 # target to generate assembly for a file
 Source/Main.cpp.s:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.s
+	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f App/CMakeFiles/App.dir/build.make App/CMakeFiles/App.dir/Source/Main.cpp.s
 .PHONY : Source/Main.cpp.s
 
 # Help Target
@@ -205,7 +205,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_traning/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_training/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

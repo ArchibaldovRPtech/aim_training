@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_traning
+CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_traning/build
+CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_training/build
 
 # Include any dependencies generated for this target.
 include App/CMakeFiles/App.dir/depend.make
@@ -73,32 +73,32 @@ App/CMakeFiles/App.dir/codegen:
 .PHONY : App/CMakeFiles/App.dir/codegen
 
 App/CMakeFiles/App.dir/Source/Main.cpp.o: App/CMakeFiles/App.dir/flags.make
-App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp
+App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_training/App/Source/Main.cpp
 App/CMakeFiles/App.dir/Source/Main.cpp.o: App/CMakeFiles/App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_traning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object App/CMakeFiles/App.dir/Source/Main.cpp.o"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT App/CMakeFiles/App.dir/Source/Main.cpp.o -MF CMakeFiles/App.dir/Source/Main.cpp.o.d -o CMakeFiles/App.dir/Source/Main.cpp.o -c /home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object App/CMakeFiles/App.dir/Source/Main.cpp.o"
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT App/CMakeFiles/App.dir/Source/Main.cpp.o -MF CMakeFiles/App.dir/Source/Main.cpp.o.d -o CMakeFiles/App.dir/Source/Main.cpp.o -c /home/ap/projects/Cpp/aim_training/App/Source/Main.cpp
 
 App/CMakeFiles/App.dir/Source/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App.dir/Source/Main.cpp.i"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp > CMakeFiles/App.dir/Source/Main.cpp.i
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_training/App/Source/Main.cpp > CMakeFiles/App.dir/Source/Main.cpp.i
 
 App/CMakeFiles/App.dir/Source/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App.dir/Source/Main.cpp.s"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp -o CMakeFiles/App.dir/Source/Main.cpp.s
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_training/App/Source/Main.cpp -o CMakeFiles/App.dir/Source/Main.cpp.s
 
 App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: App/CMakeFiles/App.dir/flags.make
-App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp
+App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp
 App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: App/CMakeFiles/App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_traning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object App/CMakeFiles/App.dir/Source/AppLayer.cpp.o"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT App/CMakeFiles/App.dir/Source/AppLayer.cpp.o -MF CMakeFiles/App.dir/Source/AppLayer.cpp.o.d -o CMakeFiles/App.dir/Source/AppLayer.cpp.o -c /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object App/CMakeFiles/App.dir/Source/AppLayer.cpp.o"
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT App/CMakeFiles/App.dir/Source/AppLayer.cpp.o -MF CMakeFiles/App.dir/Source/AppLayer.cpp.o.d -o CMakeFiles/App.dir/Source/AppLayer.cpp.o -c /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp
 
 App/CMakeFiles/App.dir/Source/AppLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App.dir/Source/AppLayer.cpp.i"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp > CMakeFiles/App.dir/Source/AppLayer.cpp.i
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp > CMakeFiles/App.dir/Source/AppLayer.cpp.i
 
 App/CMakeFiles/App.dir/Source/AppLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App.dir/Source/AppLayer.cpp.s"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp -o CMakeFiles/App.dir/Source/AppLayer.cpp.s
+	cd /home/ap/projects/Cpp/aim_training/build/App && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp -o CMakeFiles/App.dir/Source/AppLayer.cpp.s
 
 # Object files for target App
 App_OBJECTS = \
@@ -115,18 +115,18 @@ App/App: App/CMakeFiles/App.dir/compiler_depend.ts
 App/App: Core/libCore.a
 App/App: libSDL3.so.0.3.0
 App/App: App/CMakeFiles/App.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/projects/Cpp/aim_traning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable App"
-	cd /home/ap/projects/Cpp/aim_traning/build/App && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable App"
+	cd /home/ap/projects/Cpp/aim_training/build/App && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 App/CMakeFiles/App.dir/build: App/App
 .PHONY : App/CMakeFiles/App.dir/build
 
 App/CMakeFiles/App.dir/clean:
-	cd /home/ap/projects/Cpp/aim_traning/build/App && $(CMAKE_COMMAND) -P CMakeFiles/App.dir/cmake_clean.cmake
+	cd /home/ap/projects/Cpp/aim_training/build/App && $(CMAKE_COMMAND) -P CMakeFiles/App.dir/cmake_clean.cmake
 .PHONY : App/CMakeFiles/App.dir/clean
 
 App/CMakeFiles/App.dir/depend:
-	cd /home/ap/projects/Cpp/aim_traning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/projects/Cpp/aim_traning /home/ap/projects/Cpp/aim_traning/App /home/ap/projects/Cpp/aim_traning/build /home/ap/projects/Cpp/aim_traning/build/App /home/ap/projects/Cpp/aim_traning/build/App/CMakeFiles/App.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/projects/Cpp/aim_training /home/ap/projects/Cpp/aim_training/App /home/ap/projects/Cpp/aim_training/build /home/ap/projects/Cpp/aim_training/build/App /home/ap/projects/Cpp/aim_training/build/App/CMakeFiles/App.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : App/CMakeFiles/App.dir/depend
 

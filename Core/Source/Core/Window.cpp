@@ -26,7 +26,7 @@ namespace Core {
 		// glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 		// glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
 		//
-		m_Handle = SDL_CreateWindow(m_Specification.Title.c_str(),m_Specification.Width, m_Specification.Height, 0);
+		m_Handle = SDL_CreateWindow(m_Specification.Title.c_str(),m_Specification.Width, m_Specification.Height, SDL_WINDOW_RESIZABLE);
 
 		if (!m_Handle)
 		{
@@ -51,7 +51,7 @@ namespace Core {
 	std::vector<int> Window::GetFramebufferSize()
 	{
 		int width, height;
-	SDL_GetWindowSize(m_Handle, &width, &height);
+		SDL_GetWindowSize(m_Handle, &width, &height);
 		return { width, height };
 	}
 

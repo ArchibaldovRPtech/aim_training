@@ -50,7 +50,6 @@ namespace Core {
 		// Main Application loop
 		while (m_Running)
 		{
-	//TODO: migrate to sdl poll events
 			SDL_PumpEvents();
 
 			if (m_Window->ShouldClose())

@@ -5,7 +5,7 @@
 int main()
 {
 	Core::ApplicationSpecification appSpec;
-	appSpec.Name = "Architecture";
+	appSpec.Name = "Aim_training";
 	appSpec.WindowSpec.Width = 600;
 	appSpec.WindowSpec.Height = 400;
 

@@ -22,12 +22,12 @@ App/App: Core/libCore.a \
   App/CMakeFiles/App.dir/Source/AppLayer.cpp.o \
   App/CMakeFiles/App.dir/Source/Main.cpp.o
 
-App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp \
-  /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Application.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Event.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Layer.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Window.h \
+App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp \
+  /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Event.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Layer.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.h \
   /usr/include/SDL3/SDL.h \
   /usr/include/SDL3/SDL_assert.h \
   /usr/include/SDL3/SDL_asyncio.h \
@@ -353,12 +353,12 @@ App/CMakeFiles/App.dir/Source/AppLayer.cpp.o: /home/ap/projects/Cpp/aim_traning/
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp \
-  /home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Application.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Event.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Layer.h \
-  /home/ap/projects/Cpp/aim_traning/Core/Source/Core/Window.h \
+App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_training/App/Source/Main.cpp \
+  /home/ap/projects/Cpp/aim_training/App/Source/AppLayer.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Event.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Layer.h \
+  /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.h \
   /usr/include/SDL3/SDL.h \
   /usr/include/SDL3/SDL_assert.h \
   /usr/include/SDL3/SDL_asyncio.h \
@@ -711,6 +711,8 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_traning/App/
 
 /usr/include/sched.h:
 
+/home/ap/projects/Cpp/aim_training/App/Source/Main.cpp:
+
 /usr/include/linux/sched/types.h:
 
 /usr/include/linux/limits.h:
@@ -761,6 +763,8 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_traning/App/
 
 /usr/include/c++/15.2.1/pstl/execution_defs.h:
 
+/usr/include/c++/15.2.1/new:
+
 /usr/include/c++/15.2.1/memory:
 
 /usr/include/c++/15.2.1/numbers:
@@ -791,8 +795,6 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o: /home/ap/projects/Cpp/aim_traning/App/
 
 /usr/include/c++/15.2.1/cerrno:
 
-/home/ap/projects/Cpp/aim_traning/App/Source/Main.cpp:
-
 /usr/include/c++/15.2.1/bits/version.h:
 
 /usr/include/c++/15.2.1/bits/vector.tcc:
@@ -811,8 +813,6 @@ App/CMakeFiles/App.dir/Source/AppLayer.cpp.o:
 
 /usr/include/bits/posix_opt.h:
 
-/usr/include/bits/atomic_wide_counter.h:
-
 /usr/include/SDL3/SDL_close_code.h:
 
 /usr/include/bits/long-double.h:
@@ -828,8 +828,6 @@ App/CMakeFiles/App.dir/Source/AppLayer.cpp.o:
 /usr/include/SDL3/SDL_tray.h:
 
 /usr/include/asm/unistd.h:
-
-/usr/include/asm/types.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -865,6 +863,8 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o:
 
 /usr/include/SDL3/SDL_thread.h:
 
+/usr/include/SDL3/SDL_system.h:
+
 /usr/include/linux/stddef.h:
 
 /usr/include/SDL3/SDL_hints.h:
@@ -880,8 +880,6 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o:
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/SDL3/SDL_render.h:
-
-/usr/include/bits/setjmp.h:
 
 /usr/include/SDL3/SDL_power.h:
 
@@ -901,23 +899,11 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o:
 
 /usr/include/SDL3/SDL_mutex.h:
 
-/usr/include/SDL3/SDL_timer.h:
-
-/usr/include/c++/15.2.1/cstddef:
-
-/usr/lib/libgcc_s.so:
+/home/ap/projects/Cpp/aim_training/App/Source/AppLayer.h:
 
 /usr/include/SDL3/SDL_asyncio.h:
 
 /usr/lib/libgcc_s.so.1:
-
-/usr/include/SDL3/SDL_system.h:
-
-/home/ap/projects/Cpp/aim_traning/Core/Source/Core/Window.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator.h:
-
-/usr/lib/libm.so.6:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
@@ -935,23 +921,25 @@ App/CMakeFiles/App.dir/Source/Main.cpp.o:
 
 /usr/include/bits/types/timer_t.h:
 
-/home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.cpp:
+/usr/include/c++/15.2.1/bits/stl_iterator.h:
 
-/usr/include/SDL3/SDL_joystick.h:
+/usr/lib/libm.so.6:
 
-/usr/include/SDL3/SDL_surface.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/c++/15.2.1/system_error:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
+/usr/include/bits/types/locale_t.h:
 
 /usr/lib/libmvec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
+/usr/include/SDL3/SDL_joystick.h:
+
+/usr/include/SDL3/SDL_surface.h:
+
 /usr/include/SDL3/SDL_assert.h:
+
+/home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
@@ -962,8 +950,6 @@ Core/libCore.a:
 /usr/include/c++/15.2.1/ext/numeric_traits.h:
 
 /usr/include/bits/getopt_core.h:
-
-/home/ap/projects/Cpp/aim_traning/Core/Source/Core/Application.h:
 
 /usr/lib/libc_nonshared.a:
 
@@ -980,6 +966,12 @@ Core/libCore.a:
 /usr/include/c++/15.2.1/bits/invoke.h:
 
 /usr/include/c++/15.2.1/bits/stl_function.h:
+
+/usr/include/c++/15.2.1/system_error:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -1023,6 +1015,22 @@ libSDL3.so.0.3.0:
 
 /usr/lib/crti.o:
 
+/usr/include/asm/types.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/home/ap/projects/Cpp/aim_training/Core/Source/Core/Event.h:
+
+/usr/include/bits/syscall.h:
+
+/usr/include/SDL3/SDL_misc.h:
+
+/usr/include/SDL3/SDL_timer.h:
+
+/usr/include/c++/15.2.1/cstddef:
+
+/usr/lib/libgcc_s.so:
+
 /usr/include/bits/pthreadtypes.h:
 
 /usr/lib/libc.so:
@@ -1059,12 +1067,6 @@ libSDL3.so.0.3.0:
 
 /usr/include/SDL3/SDL_rect.h:
 
-/usr/include/c++/15.2.1/new:
-
-/home/ap/projects/Cpp/aim_traning/Core/Source/Core/Layer.h:
-
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
-
 /usr/include/c++/15.2.1/bits/cpp_type_traits.h:
 
 /usr/include/SDL3/SDL_cpuinfo.h:
@@ -1074,6 +1076,8 @@ libSDL3.so.0.3.0:
 /usr/include/bits/stdint-least.h:
 
 /usr/include/stdlib.h:
+
+/home/ap/projects/Cpp/aim_training/Core/Source/Core/Layer.h:
 
 /usr/include/SDL3/SDL_log.h:
 
@@ -1120,10 +1124,6 @@ libSDL3.so.0.3.0:
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/15.2.1/bits/alloc_traits.h:
-
-/usr/include/bits/syscall.h:
-
-/usr/include/SDL3/SDL_misc.h:
 
 /usr/include/SDL3/SDL_atomic.h:
 
@@ -1185,6 +1185,12 @@ libSDL3.so.0.3.0:
 
 /usr/include/bits/types/error_t.h:
 
+/usr/include/c++/15.2.1/iosfwd:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
+
 /usr/include/SDL3/SDL_platform.h:
 
 /usr/include/c++/15.2.1/bits/formatfwd.h:
@@ -1193,15 +1199,11 @@ libSDL3.so.0.3.0:
 
 /usr/include/c++/15.2.1/bits/requires_hosted.h:
 
-/usr/include/bits/types/locale_t.h:
-
 /usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/bits/wchar.h:
-
-/home/ap/projects/Cpp/aim_traning/App/Source/AppLayer.h:
 
 /usr/include/bits/waitstatus.h:
 
@@ -1212,12 +1214,6 @@ libSDL3.so.0.3.0:
 /usr/include/c++/15.2.1/ext/atomicity.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/15.2.1/iosfwd:
-
-/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
-
-/usr/include/bits/types/struct_timeval.h:
 
 /usr/include/SDL3/SDL_filesystem.h:
 
@@ -1259,6 +1255,10 @@ libSDL3.so.0.3.0:
 
 /usr/include/c++/15.2.1/bits/basic_ios.tcc:
 
+/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
+
+/usr/include/c++/15.2.1/bits/basic_string.h:
+
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
 /usr/include/c++/15.2.1/bits/charconv.h:
@@ -1271,6 +1271,8 @@ libSDL3.so.0.3.0:
 
 /usr/include/c++/15.2.1/bits/cxxabi_forced.h:
 
+/home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.h:
+
 /usr/include/c++/15.2.1/bits/erase_if.h:
 
 /usr/include/c++/15.2.1/debug/assertions.h:
@@ -1280,6 +1282,8 @@ libSDL3.so.0.3.0:
 /usr/include/c++/15.2.1/vector:
 
 /usr/include/c++/15.2.1/bits/exception_defines.h:
+
+/usr/include/c++/15.2.1/bits/hash_bytes.h:
 
 /usr/include/c++/15.2.1/bits/ios_base.h:
 
@@ -1351,6 +1355,8 @@ libSDL3.so.0.3.0:
 
 /usr/include/c++/15.2.1/bits/std_abs.h:
 
+/home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.h:
+
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/15.2.1/bits/stl_multiset.h:
@@ -1374,12 +1380,6 @@ libSDL3.so.0.3.0:
 /usr/include/SDL3/SDL_keyboard.h:
 
 /usr/include/c++/15.2.1/bits/uses_allocator.h:
-
-/home/ap/projects/Cpp/aim_traning/Core/Source/Core/Event.h:
-
-/usr/include/c++/15.2.1/bits/basic_string.h:
-
-/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
 
 /usr/include/linux/posix_types.h:
 
