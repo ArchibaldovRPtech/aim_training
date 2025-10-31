@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/Source/Core/Application.cpp.o"
   "CMakeFiles/Core.dir/Source/Core/Application.cpp.o.d"
+  "CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o"
+  "CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o.d"
   "CMakeFiles/Core.dir/Source/Core/Window.cpp.o"
   "CMakeFiles/Core.dir/Source/Core/Window.cpp.o.d"
   "libCore.a"

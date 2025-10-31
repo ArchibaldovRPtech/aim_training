@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_training
+CMAKE_SOURCE_DIR = /home/ap/aim_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_training/build
+CMAKE_BINARY_DIR = /home/ap/aim_training/build
 
 # Include any dependencies generated for this target.
 include Core/vendored/SDL/CMakeFiles/SDL3_test.dir/depend.make
@@ -73,144 +73,144 @@ Core/vendored/SDL/CMakeFiles/SDL3_test.dir/codegen:
 .PHONY : Core/vendored/SDL/CMakeFiles/SDL3_test.dir/codegen
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_assert.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_common.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_compare.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_crc32.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_font.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_harness.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_log.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_md5.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
-Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c
+Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
+	cd /home/ap/aim_training/build/Core/vendored/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ap/aim_training/Core/vendored/SDL/src/test/SDL_test_memory.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
 
 # Object files for target SDL3_test
 SDL3_test_OBJECTS = \
@@ -240,19 +240,19 @@ Core/vendored/SDL/libSDL3_test.a: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src
 Core/vendored/SDL/libSDL3_test.a: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o
 Core/vendored/SDL/libSDL3_test.a: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/build.make
 Core/vendored/SDL/libSDL3_test.a: Core/vendored/SDL/CMakeFiles/SDL3_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libSDL3_test.a"
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL3_test.dir/cmake_clean_target.cmake
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL3_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libSDL3_test.a"
+	cd /home/ap/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL3_test.dir/cmake_clean_target.cmake
+	cd /home/ap/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL3_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/build: Core/vendored/SDL/libSDL3_test.a
 .PHONY : Core/vendored/SDL/CMakeFiles/SDL3_test.dir/build
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/clean:
-	cd /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL3_test.dir/cmake_clean.cmake
+	cd /home/ap/aim_training/build/Core/vendored/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL3_test.dir/cmake_clean.cmake
 .PHONY : Core/vendored/SDL/CMakeFiles/SDL3_test.dir/clean
 
 Core/vendored/SDL/CMakeFiles/SDL3_test.dir/depend:
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/projects/Cpp/aim_training /home/ap/projects/Cpp/aim_training/Core/vendored/SDL /home/ap/projects/Cpp/aim_training/build /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL /home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/aim_training /home/ap/aim_training/Core/vendored/SDL /home/ap/aim_training/build /home/ap/aim_training/build/Core/vendored/SDL /home/ap/aim_training/build/Core/vendored/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Core/vendored/SDL/CMakeFiles/SDL3_test.dir/depend
 

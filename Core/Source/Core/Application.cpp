@@ -21,7 +21,7 @@ namespace Core {
 	{
 		s_Application = this;
 
-		SDL_Init(SDL_INIT_VIDEO);
+		SDL_Init(SDL_INIT_VIDEO|SDL_INIT_EVENTS);
 
 		// Set window title to app name if empty
 		if (m_Specification.WindowSpec.Title.empty())
@@ -94,6 +94,5 @@ namespace Core {
 	{
 		return (float)SDL_GetTicks();
 	}
-
 
 }

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ap/projects/Cpp/aim_training/App/Source -I/home/ap/projects/Cpp/aim_training/Core/Source -I/home/ap/projects/Cpp/aim_training/Core/vendored/SDL
+CXX_INCLUDES = -I/home/ap/aim_training/App/Source -I/home/ap/aim_training/Core/Source -I/home/ap/aim_training/Core/vendored/SDL -I/home/ap/aim_training/Core/vendored/SDL_image
 
-CXX_FLAGS = -std=gnu++23
+CXX_FLAGS = -std=gnu++23 -fPIE
 

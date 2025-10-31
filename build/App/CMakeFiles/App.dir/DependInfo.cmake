@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ap/projects/Cpp/aim_training/App/Source/AppLayer.cpp" "App/CMakeFiles/App.dir/Source/AppLayer.cpp.o" "gcc" "App/CMakeFiles/App.dir/Source/AppLayer.cpp.o.d"
-  "/home/ap/projects/Cpp/aim_training/App/Source/Main.cpp" "App/CMakeFiles/App.dir/Source/Main.cpp.o" "gcc" "App/CMakeFiles/App.dir/Source/Main.cpp.o.d"
+  "/home/ap/aim_training/App/Source/AppLayer.cpp" "App/CMakeFiles/App.dir/Source/AppLayer.cpp.o" "gcc" "App/CMakeFiles/App.dir/Source/AppLayer.cpp.o.d"
+  "/home/ap/aim_training/App/Source/Main.cpp" "App/CMakeFiles/App.dir/Source/Main.cpp.o" "gcc" "App/CMakeFiles/App.dir/Source/Main.cpp.o.d"
   "" "App/App" "gcc" "App/CMakeFiles/App.dir/link.d"
   )
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL/include-config-/build_config -I/home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src -I/home/ap/projects/Cpp/aim_training/Core/vendored/SDL/include
+C_INCLUDES = -I/home/ap/aim_training/build/Core/vendored/SDL/include-config-/build_config -I/home/ap/aim_training/Core/vendored/SDL/src -I/home/ap/aim_training/Core/vendored/SDL/include
 
-C_FLAGS = -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
+C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
 

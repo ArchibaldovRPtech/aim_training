@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_training
+CMAKE_SOURCE_DIR = /home/ap/aim_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_training/build
+CMAKE_BINARY_DIR = /home/ap/aim_training/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_training/build/CMakeFiles /home/ap/projects/Cpp/aim_training/build/Core//CMakeFiles/progress.marks
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ap/projects/Cpp/aim_training/build/CMakeFiles 0
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ap/aim_training/build/CMakeFiles /home/ap/aim_training/build/Core//CMakeFiles/progress.marks
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ap/aim_training/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/clean
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,23 +103,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/preinstall
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/preinstall
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_training/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/aim_training/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Core/CMakeFiles/Core.dir/rule:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/Core.dir/rule
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/Core.dir/rule
 .PHONY : Core/CMakeFiles/Core.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ Core: Core/CMakeFiles/Core.dir/rule
 
 # fast build rule for target.
 Core/fast:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
 .PHONY : Core/fast
 
 Source/Core/Application.o: Source/Core/Application.cpp.o
@@ -136,7 +136,7 @@ Source/Core/Application.o: Source/Core/Application.cpp.o
 
 # target to build an object file
 Source/Core/Application.cpp.o:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o
 .PHONY : Source/Core/Application.cpp.o
 
 Source/Core/Application.i: Source/Core/Application.cpp.i
@@ -144,7 +144,7 @@ Source/Core/Application.i: Source/Core/Application.cpp.i
 
 # target to preprocess a source file
 Source/Core/Application.cpp.i:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.i
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.i
 .PHONY : Source/Core/Application.cpp.i
 
 Source/Core/Application.s: Source/Core/Application.cpp.s
@@ -152,15 +152,39 @@ Source/Core/Application.s: Source/Core/Application.cpp.s
 
 # target to generate assembly for a file
 Source/Core/Application.cpp.s:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.s
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.s
 .PHONY : Source/Core/Application.cpp.s
+
+Source/Core/Renderer/Renderer.o: Source/Core/Renderer/Renderer.cpp.o
+.PHONY : Source/Core/Renderer/Renderer.o
+
+# target to build an object file
+Source/Core/Renderer/Renderer.cpp.o:
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o
+.PHONY : Source/Core/Renderer/Renderer.cpp.o
+
+Source/Core/Renderer/Renderer.i: Source/Core/Renderer/Renderer.cpp.i
+.PHONY : Source/Core/Renderer/Renderer.i
+
+# target to preprocess a source file
+Source/Core/Renderer/Renderer.cpp.i:
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.i
+.PHONY : Source/Core/Renderer/Renderer.cpp.i
+
+Source/Core/Renderer/Renderer.s: Source/Core/Renderer/Renderer.cpp.s
+.PHONY : Source/Core/Renderer/Renderer.s
+
+# target to generate assembly for a file
+Source/Core/Renderer/Renderer.cpp.s:
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.s
+.PHONY : Source/Core/Renderer/Renderer.cpp.s
 
 Source/Core/Window.o: Source/Core/Window.cpp.o
 .PHONY : Source/Core/Window.o
 
 # target to build an object file
 Source/Core/Window.cpp.o:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o
 .PHONY : Source/Core/Window.cpp.o
 
 Source/Core/Window.i: Source/Core/Window.cpp.i
@@ -168,7 +192,7 @@ Source/Core/Window.i: Source/Core/Window.cpp.i
 
 # target to preprocess a source file
 Source/Core/Window.cpp.i:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.i
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.i
 .PHONY : Source/Core/Window.cpp.i
 
 Source/Core/Window.s: Source/Core/Window.cpp.s
@@ -176,7 +200,7 @@ Source/Core/Window.s: Source/Core/Window.cpp.s
 
 # target to generate assembly for a file
 Source/Core/Window.cpp.s:
-	cd /home/ap/projects/Cpp/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.s
+	cd /home/ap/aim_training/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.s
 .PHONY : Source/Core/Window.cpp.s
 
 # Help Target
@@ -191,6 +215,9 @@ help:
 	@echo "... Source/Core/Application.o"
 	@echo "... Source/Core/Application.i"
 	@echo "... Source/Core/Application.s"
+	@echo "... Source/Core/Renderer/Renderer.o"
+	@echo "... Source/Core/Renderer/Renderer.i"
+	@echo "... Source/Core/Renderer/Renderer.s"
 	@echo "... Source/Core/Window.o"
 	@echo "... Source/Core/Window.i"
 	@echo "... Source/Core/Window.s"
@@ -205,7 +232,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/projects/Cpp/aim_training/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -P /home/ap/aim_training/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

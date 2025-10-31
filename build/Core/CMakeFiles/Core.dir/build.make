@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/projects/Cpp/aim_training
+CMAKE_SOURCE_DIR = /home/ap/aim_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/projects/Cpp/aim_training/build
+CMAKE_BINARY_DIR = /home/ap/aim_training/build
 
 # Include any dependencies generated for this target.
 include Core/CMakeFiles/Core.dir/depend.make
@@ -73,59 +73,75 @@ Core/CMakeFiles/Core.dir/codegen:
 .PHONY : Core/CMakeFiles/Core.dir/codegen
 
 Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o: Core/CMakeFiles/Core.dir/flags.make
-Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o: /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.cpp
+Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o: /home/ap/aim_training/Core/Source/Core/Application.cpp
 Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o -MF CMakeFiles/Core.dir/Source/Core/Application.cpp.o.d -o CMakeFiles/Core.dir/Source/Core/Application.cpp.o -c /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o"
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o -MF CMakeFiles/Core.dir/Source/Core/Application.cpp.o.d -o CMakeFiles/Core.dir/Source/Core/Application.cpp.o -c /home/ap/aim_training/Core/Source/Core/Application.cpp
 
 Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Source/Core/Application.cpp.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.cpp > CMakeFiles/Core.dir/Source/Core/Application.cpp.i
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/aim_training/Core/Source/Core/Application.cpp > CMakeFiles/Core.dir/Source/Core/Application.cpp.i
 
 Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Source/Core/Application.cpp.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/Source/Core/Application.cpp -o CMakeFiles/Core.dir/Source/Core/Application.cpp.s
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/aim_training/Core/Source/Core/Application.cpp -o CMakeFiles/Core.dir/Source/Core/Application.cpp.s
 
 Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o: Core/CMakeFiles/Core.dir/flags.make
-Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o: /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.cpp
+Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o: /home/ap/aim_training/Core/Source/Core/Window.cpp
 Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o -MF CMakeFiles/Core.dir/Source/Core/Window.cpp.o.d -o CMakeFiles/Core.dir/Source/Core/Window.cpp.o -c /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o"
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o -MF CMakeFiles/Core.dir/Source/Core/Window.cpp.o.d -o CMakeFiles/Core.dir/Source/Core/Window.cpp.o -c /home/ap/aim_training/Core/Source/Core/Window.cpp
 
 Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Source/Core/Window.cpp.i"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.cpp > CMakeFiles/Core.dir/Source/Core/Window.cpp.i
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/aim_training/Core/Source/Core/Window.cpp > CMakeFiles/Core.dir/Source/Core/Window.cpp.i
 
 Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Source/Core/Window.cpp.s"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/projects/Cpp/aim_training/Core/Source/Core/Window.cpp -o CMakeFiles/Core.dir/Source/Core/Window.cpp.s
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/aim_training/Core/Source/Core/Window.cpp -o CMakeFiles/Core.dir/Source/Core/Window.cpp.s
+
+Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o: /home/ap/aim_training/Core/Source/Core/Renderer/Renderer.cpp
+Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o"
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o -MF CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o.d -o CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o -c /home/ap/aim_training/Core/Source/Core/Renderer/Renderer.cpp
+
+Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.i"
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/aim_training/Core/Source/Core/Renderer/Renderer.cpp > CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.i
+
+Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.s"
+	cd /home/ap/aim_training/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/aim_training/Core/Source/Core/Renderer/Renderer.cpp -o CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.s
 
 # Object files for target Core
 Core_OBJECTS = \
 "CMakeFiles/Core.dir/Source/Core/Application.cpp.o" \
-"CMakeFiles/Core.dir/Source/Core/Window.cpp.o"
+"CMakeFiles/Core.dir/Source/Core/Window.cpp.o" \
+"CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
 
 Core/libCore.a: Core/CMakeFiles/Core.dir/Source/Core/Application.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/Source/Core/Window.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/Source/Core/Renderer/Renderer.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/build.make
-Core/libCore.a: /home/ap/projects/Cpp/aim_training/Core/vendored/SDL/src/dynapi/SDL_dynapi.sym
+Core/libCore.a: /home/ap/aim_training/Core/vendored/SDL/src/dynapi/SDL_dynapi.sym
 Core/libCore.a: Core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/projects/Cpp/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCore.a"
-	cd /home/ap/projects/Cpp/aim_training/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
-	cd /home/ap/projects/Cpp/aim_training/build/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ap/aim_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCore.a"
+	cd /home/ap/aim_training/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
+	cd /home/ap/aim_training/build/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Core/CMakeFiles/Core.dir/build: Core/libCore.a
 .PHONY : Core/CMakeFiles/Core.dir/build
 
 Core/CMakeFiles/Core.dir/clean:
-	cd /home/ap/projects/Cpp/aim_training/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean.cmake
+	cd /home/ap/aim_training/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean.cmake
 .PHONY : Core/CMakeFiles/Core.dir/clean
 
 Core/CMakeFiles/Core.dir/depend:
-	cd /home/ap/projects/Cpp/aim_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/projects/Cpp/aim_training /home/ap/projects/Cpp/aim_training/Core /home/ap/projects/Cpp/aim_training/build /home/ap/projects/Cpp/aim_training/build/Core /home/ap/projects/Cpp/aim_training/build/Core/CMakeFiles/Core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ap/aim_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/aim_training /home/ap/aim_training/Core /home/ap/aim_training/build /home/ap/aim_training/build/Core /home/ap/aim_training/build/Core/CMakeFiles/Core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Core/CMakeFiles/Core.dir/depend
 

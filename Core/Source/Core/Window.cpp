@@ -1,5 +1,6 @@
 #include "Window.h"
 #include "SDL3/SDL_events.h"
+#include "SDL3/SDL_log.h"
 #include "SDL3/SDL_video.h"
 
 
@@ -26,32 +27,35 @@ namespace Core {
 		// glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 		// glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
 		//
-		m_Handle = SDL_CreateWindow(m_Specification.Title.c_str(),m_Specification.Width, m_Specification.Height, SDL_WINDOW_RESIZABLE);
+		m_WindowHandle = SDL_CreateWindow(m_Specification.Title.c_str(),m_Specification.Width, m_Specification.Height, SDL_WINDOW_RESIZABLE);
 
-		if (!m_Handle)
+		if (!m_WindowHandle)
 		{
 			std::cerr << "Failed to create GLFW window!\n";
 			assert(false);
+		}
+		if ( m_WindowRenderer = SDL_CreateRenderer(m_WindowHandle, 0); m_WindowRenderer == nullptr){
+		SDL_Log("renderer could not be created! SDL_Error %s\n", SDL_GetError());
 		}
 
 	}
 	void Window::Destroy()
 	{
-		if (m_Handle)
-			SDL_DestroyWindow(m_Handle);
+		if (m_WindowHandle)
+			SDL_DestroyWindow(m_WindowHandle);
 
-		m_Handle = nullptr;
+		m_WindowHandle = nullptr;
 	}
 
 	void Window::Update()
 	{
-		SDL_GL_SwapWindow(m_Handle);
+		SDL_GL_SwapWindow(m_WindowHandle);
 	}
 
 	std::vector<int> Window::GetFramebufferSize()
 	{
 		int width, height;
-		SDL_GetWindowSize(m_Handle, &width, &height);
+		SDL_GetWindowSize(m_WindowHandle, &width, &height);
 		return { width, height };
 	}
 

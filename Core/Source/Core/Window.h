@@ -3,6 +3,7 @@
 #include <SDL3/SDL.h>
 
 
+#include <SDL3/SDL_render.h>
 #include <string>
 #include <vector>
 
@@ -30,11 +31,13 @@ namespace Core {
 
 		bool ShouldClose() const;
 
-		SDL_Window* GetHandle() const { return m_Handle; }
+		SDL_Window* GetWindowHandle() const { return m_WindowHandle; }
+		SDL_Renderer* Get_windowRenderer() const { return m_WindowRenderer; }
 	private:
 		WindowSpecification m_Specification;
 
-		SDL_Window* m_Handle = nullptr;
+		SDL_Window* m_WindowHandle = nullptr;
+		SDL_Renderer* m_WindowRenderer = nullptr;
 
 	};
 

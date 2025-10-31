@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ap/projects/Cpp/aim_training/Core/Source -I/home/ap/projects/Cpp/aim_training/Core/vendored/SDL -I/home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL/include-revision -I/home/ap/projects/Cpp/aim_training/Core/vendored/SDL/include
+CXX_INCLUDES = -I/home/ap/aim_training/Core/Source -I/home/ap/aim_training/Core/vendored/SDL -I/home/ap/aim_training/Core/vendored/SDL_image -I/home/ap/aim_training/Core/vendored/SDL_image/include -I/home/ap/aim_training/build/Core/vendored/SDL/include-revision -I/home/ap/aim_training/Core/vendored/SDL/include
 
-CXX_FLAGS = -std=gnu++23
+CXX_FLAGS = -std=gnu++23 -fPIC
 

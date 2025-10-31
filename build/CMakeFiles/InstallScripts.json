@@ -1,10 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ap/projects/Cpp/aim_training/build/cmake_install.cmake",
-		"/home/ap/projects/Cpp/aim_training/build/Core/cmake_install.cmake",
-		"/home/ap/projects/Cpp/aim_training/build/Core/vendored/SDL/cmake_install.cmake",
-		"/home/ap/projects/Cpp/aim_training/build/App/cmake_install.cmake"
+		"/home/ap/aim_training/build/cmake_install.cmake",
+		"/home/ap/aim_training/build/Core/cmake_install.cmake",
+		"/home/ap/aim_training/build/Core/vendored/SDL/cmake_install.cmake",
+		"/home/ap/aim_training/build/Core/vendored/SDL_image/cmake_install.cmake",
+		"/home/ap/aim_training/build/App/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

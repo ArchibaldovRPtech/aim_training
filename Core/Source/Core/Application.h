@@ -37,6 +37,7 @@ namespace Core {
 
 		static Application& Get();
 		static float GetTime();
+		SDL_Renderer* GetRenderer() const { return m_Window->Get_windowRenderer();};
 	private:
 		ApplicationSpecification m_Specification;
 		std::shared_ptr<Window> m_Window;
